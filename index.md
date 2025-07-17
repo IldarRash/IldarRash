@@ -30,23 +30,23 @@ A results-driven Software Engineer with over 6 years of experience specializing 
 - Manage microservices communication using RabbitMQ and enhance system performance and scalability.
 - Implement comprehensive automated testing with JUnit and TestContainers within a GitLab CI/CD pipeline.
 
-### **Java Software Developer**
+### **Software Engineer**
 **Perfect Art** | *Belgrade, Serbia*
 *May 2022 - February 2023*
 
-- Contributed to the development of backend services for various clients, primarily using Java and Spring.
-- Focused on building and maintaining RESTful APIs and integrating with external services.
+- Architected and developed a system for screening the financial activity of small businesses.
+- Implemented the core logic using Scala and the Akka framework for a highly concurrent and resilient solution.
 
-### **Java Software Engineer**
+### **Software Engineer**
 **MTS** | *Moscow, Russia*
 *May 2020 - May 2022*
 
-- Designed and developed a high-load data streaming platform using Java and Akka Streams.
-- Managed inter-service communication through Kafka and utilized Aerospike for caching and deduplication.
+- Designed and developed a real-time, high-load data streaming platform processing over 15 million messages per second from Kafka.
+- Utilized Java and Akka Streams for the core processing engine, ensuring high throughput and low latency.
 - Wrote consumer services in Scala, leveraging ScalaTest for robust testing.
-- Maintained and supported all components of the system, ensuring high availability and reliability.
+- Managed inter-service communication through Kafka and utilized Aerospike for caching and deduplication.
 
-### **Java Software Engineer**
+### **Software Engineer**
 **Raiffeisen Bank Russia** | *Moscow, Russia*
 *May 2018 - August 2019*
 
