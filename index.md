@@ -2,6 +2,31 @@
 layout: default
 ---
 
+<style>
+.btn {
+  display: inline-block;
+  padding: 8px 18px;
+  margin: 4px 6px 4px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #007bff;
+}
+.btn:hover, .btn:focus {
+  background: #0056b3;
+  color: #fff;
+  text-decoration: none;
+}
+</style>
+
 # Ildar Shayakhmetov
 *Software Engineer*
 
