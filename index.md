@@ -30,7 +30,7 @@ layout: default
 # Ildar Shayakhmetov
 *Software Engineer*
 
-[Download CV](./Ildar%20Shayakhmetov%20CV%20(1).pdf){: .btn .btn-primary}
+[Download CV](./IldarShayakhmetovResume.pdf){: .btn .btn-primary}
 [Email Me](mailto:il.sach@yandex.ru){: .btn}
 [LinkedIn](https://www.linkedin.com/in/ildar-shayakhmetov-8471ab164){: .btn}
 [GitHub](https://github.com/IldarRash){: .btn}
