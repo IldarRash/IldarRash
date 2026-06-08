@@ -28,7 +28,7 @@ layout: default
 </style>
 
 # Ildar Shayakhmetov
-*Software Engineer*
+*Senior Backend & AI-Systems Engineer — High-Load Fintech*
 
 [Download CV](./IldarShayakhmetovResume.pdf){: .btn .btn-primary}
 [Email Me](mailto:il.sach@yandex.ru){: .btn}
@@ -39,7 +39,16 @@ layout: default
 
 ## Professional Summary
 
-A results-driven Software Engineer with over 6 years of experience specializing in the design and development of high-load, distributed backend systems. Proficient in **Java**, **Kotlin**, and **Scala**, with a strong focus on reactive programming paradigms using **Project Reactor** and **Akka Streams**. Proven ability to lead projects, optimize performance, and ensure system stability in fast-paced fintech environments. Passionate about exploring new technologies, with personal projects in **Rust**.
+A results-driven **Senior Backend & AI-Systems Engineer** with over 6 years of experience designing high-load, distributed backend systems. Proficient in **Java**, **Kotlin**, and **Scala**, with a strong focus on reactive programming using **Project Reactor** and **Akka Streams**, and deep experience in **fintech** — payments, money movement, and PCI-DSS-compliant services. Alongside JVM work, I architect **event-driven AI platforms** in **Rust** and **Python** (algorithmic trading, AI health coaching). Proven ability to lead projects, optimize performance, and keep systems stable under load.
+
+---
+
+## Key Achievements
+
+- 🚀 Engineered a real-time streaming platform processing **15M+ messages/sec** from Kafka (Java + Akka Streams).
+- 💳 Deliver **PCI-DSS-compliant** payment services in production at Paysend (Kotlin, Project Reactor).
+- 💰 Reduced cloud spend by **~€20k/month** via a GraalVM native-image migration.
+- 🦀 Architected an event-driven algorithmic-trading platform with an **unbypassable risk engine** (Rust + Python + Kafka).
 
 ---
 
@@ -84,8 +93,9 @@ A results-driven Software Engineer with over 6 years of experience specializing 
 
 ## Core Skills
 
-- **Languages:** Java, Kotlin, Scala, Rust (for pet projects)
-- **Frameworks:** Spring (Boot, Integration), Akka Streams, Project Reactor, ZIO, RSocket
+- **Languages:** Java, Kotlin, Scala, Rust, Python, TypeScript
+- **Frameworks:** Spring (Boot, Integration), Akka Streams, Project Reactor, ZIO, RSocket, Tokio, NestJS
+- **AI & Event-Driven:** event-driven architectures, gRPC, LLM-backed systems, reproducible/auditable decision pipelines
 - **Messaging:** RabbitMQ, Apache Kafka
 - **Databases & Caching:** PostgreSQL, Aerospike, Redis
 - **DevOps & Tools:** Docker, GitLab CI, TestContainers, Gradle, Git
@@ -109,6 +119,8 @@ A results-driven Software Engineer with over 6 years of experience specializing 
 
 ## Highlighted Projects
 
-- **[bot-constructor](https://github.com/IldarRash/bot-constructor)**: A multi-module bot constructor built with Kotlin, Gradle, and RSocket.
+- **[AlladinAi](https://github.com/IldarRash/AlladinAi)**: Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine — Rust, Tokio, Python, Kafka, gRPC.
+- **[HealthTracer](https://github.com/IldarRash/HealthTracer)**: AI health coach built structured-state-first (state is authoritative, chat is just the interface) — TypeScript, NestJS, Next.js, Drizzle.
 - **[zio-avito-desk](https://github.com/IldarRash/zio-avito-desk)**: A backend service for an Avito-like platform, built with Scala and ZIO.
-- **[volley-app](https://github.com/IldarRash/volleyApp)**: A mobile application for volleyball players, developed with Rust. 
+- **[bot-constructor](https://github.com/IldarRash/bot-constructor)**: A multi-module bot constructor built with Kotlin, Gradle, and RSocket.
+- **[payment-system-demo](https://github.com/IldarRash/payment-system-demo)**: Distributed payment system communicating over sync + async channels — Java, Spring Security, Spring Integration, JWT, MQ. 
