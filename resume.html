@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ildar Shayakhmetov — Resume</title>
+<style>
+  /* Single-column, ATS-friendly resume. Selectable text, standard headings,
+     no columns, no icon fonts. Source: resume-content.md */
+  @page { size: A4; margin: 14mm 15mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: Arial, "Helvetica Neue", "Segoe UI", sans-serif;
+    color: #1a1a1a;
+    font-size: 10.3pt;
+    line-height: 1.34;
+  }
+  a { color: #0b5cad; text-decoration: none; }
+
+  header { margin-bottom: 6px; }
+  h1 {
+    font-size: 21pt;
+    letter-spacing: 0.5px;
+    margin: 0 0 2px 0;
+    color: #0b3d6b;
+  }
+  .title {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #444;
+    margin: 0 0 5px 0;
+  }
+  .contact {
+    font-size: 9.2pt;
+    color: #333;
+    line-height: 1.5;
+  }
+  .contact span { white-space: nowrap; }
+
+  h2 {
+    font-size: 11pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0b3d6b;
+    border-bottom: 1.5px solid #0b3d6b;
+    padding-bottom: 2px;
+    margin: 13px 0 7px 0;
+  }
+
+  .job { margin-bottom: 9px; page-break-inside: avoid; }
+  .job-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .role { font-weight: 700; font-size: 10.6pt; }
+  .role .company { font-weight: 700; }
+  .meta { font-size: 9pt; color: #555; white-space: nowrap; padding-left: 10px; }
+  .subline { font-size: 9pt; color: #555; margin: 0 0 3px 0; }
+
+  ul { margin: 3px 0 0 0; padding-left: 16px; }
+  li { margin: 1.5px 0; }
+
+  p { margin: 3px 0; }
+
+  .skills li { margin: 2px 0; }
+  .skills b { color: #222; }
+
+  strong { color: #0b3d6b; }
+
+  .earlier { font-size: 9.8pt; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ILDAR SHAYAKHMETOV</h1>
+  <p class="title">Senior Backend &amp; AI-Systems Engineer | High-Load Fintech</p>
+  <div class="contact">
+    <span>il.sach@yandex.ru</span> &nbsp;·&nbsp;
+    <span>+381 62 975 4956</span> &nbsp;·&nbsp;
+    <span>Belgrade, Serbia</span><br>
+    <span><a href="https://www.linkedin.com/in/ildar-shayakhmetov-8471ab164">linkedin.com/in/ildar-shayakhmetov-8471ab164</a></span> &nbsp;·&nbsp;
+    <span><a href="https://github.com/IldarRash">github.com/IldarRash</a></span> &nbsp;·&nbsp;
+    <span><a href="https://ildarrash.github.io/IldarRash/">ildarrash.github.io/IldarRash</a></span>
+  </div>
+</header>
+
+<section>
+  <h2>Summary</h2>
+  <p>Senior Backend &amp; AI-Systems Engineer with 6+ years designing high-load, distributed backend systems. Expert in Java, Kotlin, and Scala with reactive programming (Project Reactor, Akka Streams) and deep fintech experience — payments, money movement, and PCI-DSS-compliant services. Also architects event-driven AI platforms in Rust and Python (algorithmic trading, AI health coaching). Track record of leading projects, optimizing performance, and keeping systems stable under load.</p>
+</section>
+
+<section>
+  <h2>Key Achievements</h2>
+  <ul>
+    <li>Engineered a real-time streaming platform processing <strong>15M+ messages/sec</strong> from Kafka (Java + Akka Streams).</li>
+    <li>Cut cloud spend by <strong>~EUR 20k/month</strong> via a GraalVM native-image migration.</li>
+    <li>Delivered <strong>PCI-DSS-compliant</strong> payment services in production (Kotlin, Project Reactor).</li>
+    <li>Architected an event-driven algorithmic-trading platform with an <strong>architecturally unbypassable risk engine</strong> (Rust + Python + Kafka).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="role">Software Developer — <span class="company">Paysend</span></span>
+      <span class="meta">Feb 2023 – Present</span>
+    </div>
+    <p class="subline">Belgrade, Serbia</p>
+    <ul>
+      <li>Develop and maintain high-load payment services in Kotlin and Java; reactive architecture with Project Reactor.</li>
+      <li>Ensure PCI-DSS compliance and transaction security; integrate external payment systems.</li>
+      <li>Manage inter-service messaging over RabbitMQ; drove a GraalVM native-image migration saving ~EUR 20k/month.</li>
+      <li>Build CI/CD pipelines (GitLab) with automated testing (JUnit, TestContainers).</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="role">Software Engineer — <span class="company">Perfect Art</span></span>
+      <span class="meta">May 2022 – Feb 2023</span>
+    </div>
+    <p class="subline">Belgrade, Serbia</p>
+    <ul>
+      <li>Architected a financial-activity screening system for small businesses.</li>
+      <li>Implemented core logic in Scala + Akka for a highly concurrent, resilient solution.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="role">Software Engineer — <span class="company">MTS</span></span>
+      <span class="meta">May 2020 – May 2022</span>
+    </div>
+    <p class="subline">Moscow, Russia</p>
+    <ul>
+      <li>Designed a real-time, high-load streaming platform processing <strong>15M+ messages/sec</strong> from Kafka.</li>
+      <li>Built the core processing engine in Java + Akka Streams; wrote consumer services in Scala (ScalaTest).</li>
+      <li>Used Aerospike for caching and deduplication; managed inter-service communication through Kafka.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="role">Software Engineer — <span class="company">Raiffeisen Bank</span></span>
+      <span class="meta">May 2018 – Aug 2019</span>
+    </div>
+    <p class="subline">Moscow, Russia</p>
+    <ul>
+      <li>Built and enhanced a high-load notification service in Java + Spring Integration; rewrote the mass-mailing flow.</li>
+      <li>Redesigned caching mechanisms to improve performance; built a notification-history service from scratch.</li>
+      <li>Contributed to frontend work with React and WebSockets for real-time communication.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="role">Earlier roles</span>
+      <span class="meta">2016 – 2019</span>
+    </div>
+    <p class="earlier">Java &amp; Android roles at Alfa-Bank, EPAM Systems, Trendsoft, and Dixy — core banking (OpenID Connect authentication), high-load data-validation systems and REST APIs, system integrations (1C, AmoCRM), and mobile development (Retrofit, RxJava).</p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li><b>Languages:</b> Java, Kotlin, Scala, Rust, Python, TypeScript, SQL</li>
+    <li><b>Frameworks &amp; Reactive:</b> Spring Boot, Spring Integration, Project Reactor, Akka Streams, ZIO, Tokio, RSocket, NestJS</li>
+    <li><b>Messaging &amp; Streaming:</b> Apache Kafka, RabbitMQ</li>
+    <li><b>Data &amp; Caching:</b> PostgreSQL, Aerospike, Redis</li>
+    <li><b>AI &amp; Event-Driven:</b> event-driven architecture, gRPC, LLM-backed systems, auditable/reproducible decision pipelines</li>
+    <li><b>DevOps &amp; Tooling:</b> Docker, GitLab CI/CD, Gradle, TestContainers, JUnit, Git, GraalVM</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <ul>
+    <li><b>AlladinAi</b> — Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine and reproducible, auditable decisions. <i>Rust, Tokio, Python, Kafka, gRPC.</i></li>
+    <li><b>HealthTracer</b> — AI health coach built as a system, not a chatbot: a Postgres-backed structured domain model is authoritative, while the AI emits <i>typed proposals</i> (never direct DB writes) that the backend validates and the user approves, each becoming an immutable, auditable revision. The core is a multi-domain fan-out &amp; synthesis LLM pipeline (a router selects up to 3 domains, runs them in parallel, then a decision-maker synthesizes their output into proposals) with a deterministic planner clamping output to a hard capability allowlist and safety floors enforced in code. <i>TypeScript, NestJS, Next.js, Expo, Drizzle/PostgreSQL, Turborepo.</i></li>
+    <li><b>BeoSand</b> — Telegram-first platform for booking volleyball courts and managing training in Belgrade: a React admin console (scheduling, court-load heatmap, booking requests, broadcasts) plus a Telegram mini-app for players (browse slots, book, waitlist). Server-authoritative by design — all pricing, availability, and capacity are computed server-side and the UI only displays values and collects actions. Telegram Login auth, RSD pricing, RU/SR/EN i18n. <i>TypeScript, React + Vite, Telegram Mini Apps.</i></li>
+    <li><b>payment-system-demo</b> — Distributed payment system communicating over sync + async channels. <i>Java, Spring Security, Spring Integration, JWT, MQ.</i></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <p><b>HSE University</b> — B.Sc., Software Engineering · 2014 – 2018</p>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <ul>
+    <li>JVA-074 Java Advanced: Functional, Asynchronous and Reactive Programming</li>
+    <li>Kotlin Developer</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Languages</h2>
+  <ul>
+    <li>English — Advanced (C1)</li>
+    <li>Russian — Native</li>
+  </ul>
+</section>
+
+</body>
+</html>
