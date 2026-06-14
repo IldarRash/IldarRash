@@ -30,7 +30,7 @@ layout: default
 # Ildar Shayakhmetov
 *Senior Backend & AI-Systems Engineer — High-Load Fintech*
 
-[Download CV](./IldarShayakhmetovResume.pdf){: .btn .btn-primary}
+[Download CV](./ildar_shaiakhmetov.pdf){: .btn .btn-primary}
 [Email Me](mailto:il.sach@yandex.ru){: .btn}
 [LinkedIn](https://www.linkedin.com/in/ildar-shayakhmetov-8471ab164){: .btn}
 [GitHub](https://github.com/IldarRash){: .btn}
@@ -121,6 +121,4 @@ A results-driven **Senior Backend & AI-Systems Engineer** with over 6 years of e
 
 - **[AlladinAi](https://github.com/IldarRash/AlladinAi)**: Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine — Rust, Tokio, Python, Kafka, gRPC.
 - **[HealthTracer](https://github.com/IldarRash/HealthTracer)**: AI health coach built structured-state-first (state is authoritative, chat is just the interface) — TypeScript, NestJS, Next.js, Drizzle.
-- **[zio-avito-desk](https://github.com/IldarRash/zio-avito-desk)**: A backend service for an Avito-like platform, built with Scala and ZIO.
-- **[bot-constructor](https://github.com/IldarRash/bot-constructor)**: A multi-module bot constructor built with Kotlin, Gradle, and RSocket.
-- **[payment-system-demo](https://github.com/IldarRash/payment-system-demo)**: Distributed payment system communicating over sync + async channels — Java, Spring Security, Spring Integration, JWT, MQ. 
+- **[BeoSand](https://github.com/IldarRash/BeosendApp)**: Telegram-first platform for booking volleyball courts in Belgrade — server-authoritative pricing/availability, React admin console + Telegram mini-app, RU/SR/EN i18n — TypeScript, React + Vite, Telegram Mini Apps.
