@@ -1,7 +1,7 @@
 <!--
 =============================================================================
 ATS-FRIENDLY RESUME CONTENT — paste into Enhancv, then export PDF and overwrite
-IldarShayakhmetovResume.pdf at the repo root (referenced by index.md).
+ildar_shaiakhmetov.pdf at the repo root (the CV that index.md offers for download).
 
 HOW TO USE (Enhancv export guidance):
 - Pick a SINGLE-COLUMN template. The current PDF uses a two-column template,

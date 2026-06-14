@@ -26,10 +26,10 @@
 ### 👨‍💻 About Me
 
 - 🔭 Currently building high-performance **payment services** and reactive distributed systems at Paysend (Belgrade).
-- 🧠 On the side, I architect **event-driven AI platforms**: an algorithmic-trading engine and an AI health coach.
+- 🧠 On the side, I architect **event-driven AI platforms**: an algorithmic-trading engine ([AlladinAi](https://github.com/IldarRash/AlladinAi)) and an AI health coach ([HealthTracer](https://github.com/IldarRash/HealthTracer)).
 - 🌱 Going deeper into **Rust**, cloud-native infrastructure, and AI/ML system design.
 - 💬 Ask me about **Kotlin / Scala / Java**, reactive programming (**Project Reactor**, **Akka Streams**), microservices, and brokers (**Kafka**, **RabbitMQ**).
-- 🏐 Off the keyboard, I play volleyball to recharge.
+- 🏐 Off the keyboard, I play volleyball to recharge — and built [BeoSand](https://github.com/IldarRash/BeosendApp), a Telegram-first court-booking platform for Belgrade.
 
 ---
 
@@ -73,10 +73,8 @@
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
 | **[AlladinAi](https://github.com/IldarRash/AlladinAi)** | Event-driven algorithmic-trading platform with an architecturally **unbypassable risk engine** and fully reproducible, auditable decisions. | Rust · Tokio · Python · Kafka · gRPC |
-| **[HealthTracer](https://github.com/IldarRash/HealthTracer)** | AI health coach built **structured-state-first** (not stateless chat) — the domain state is authoritative, chat is just the interface. | TypeScript · NestJS · Next.js · Expo · Drizzle |
-| **[zio-avito-desk](https://github.com/IldarRash/zio-avito-desk)** | Classifieds-platform backend on a modern, purely functional effect system. | Scala · ZIO |
-| **[bot-constructor](https://github.com/IldarRash/bot-constructor)** | Multi-module bot constructor with high-performance inter-service communication. | Kotlin · RSocket · Gradle |
-| **[payment-system-demo](https://github.com/IldarRash/payment-system-demo)** | Distributed payment system split into services communicating over sync + async channels. | Java · Spring Security · Spring Integration · JWT · MQ |
+| **[HealthTracer](https://github.com/IldarRash/HealthTracer)** | AI health coach built **structured-state-first** — domain state is authoritative, the AI emits typed proposals the backend validates; chat is just the interface. | TypeScript · NestJS · Next.js · Expo · Drizzle |
+| **[BeoSand](https://github.com/IldarRash/BeosendApp)** | Telegram-first platform for booking volleyball courts in Belgrade — **server-authoritative** pricing/availability, React admin console + Telegram mini-app, RU/SR/EN i18n. | TypeScript · React + Vite · Telegram Mini Apps |
 
 ---
 
