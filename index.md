@@ -45,7 +45,7 @@ A results-driven **Senior Backend & AI-Systems Engineer** with over 6 years of e
 
 ## Key Achievements
 
-- 🚀 Engineered a real-time streaming platform processing **15M+ messages/sec** from Kafka (Java + Akka Streams).
+- 🚀 Engineered a real-time streaming platform processing **5M+ messages/sec** from Kafka (Java + Akka Streams).
 - 💳 Deliver **PCI-DSS-compliant** payment services in production at Paysend (Kotlin, Project Reactor).
 - 💰 Reduced cloud spend by **~€20k/month** via a GraalVM native-image migration.
 - 🦀 Architected an event-driven algorithmic-trading platform with an **unbypassable risk engine** (Rust + Python + Kafka).
@@ -75,7 +75,7 @@ A results-driven **Senior Backend & AI-Systems Engineer** with over 6 years of e
 **MTS** | *Moscow, Russia*
 *May 2020 - May 2022*
 
-- Designed and developed a real-time, high-load data streaming platform processing over 15 million messages per second from Kafka.
+- Designed and developed a real-time, high-load data streaming platform processing over 5 million messages per second from Kafka.
 - Utilized Java and Akka Streams for the core processing engine, ensuring high throughput and low latency.
 - Wrote consumer services in Scala, leveraging ScalaTest for robust testing.
 - Managed inter-service communication through Kafka and utilized Aerospike for caching and deduplication.
@@ -93,12 +93,12 @@ A results-driven **Senior Backend & AI-Systems Engineer** with over 6 years of e
 
 ## Core Skills
 
-- **Languages:** Java, Kotlin, Scala, Rust, Python, TypeScript
-- **Frameworks:** Spring (Boot, Integration), Akka Streams, Project Reactor, ZIO, RSocket, Tokio, NestJS
-- **AI & Event-Driven:** event-driven architectures, gRPC, LLM-backed systems, reproducible/auditable decision pipelines
-- **Messaging:** RabbitMQ, Apache Kafka
-- **Databases & Caching:** PostgreSQL, Aerospike, Redis
-- **DevOps & Tools:** Docker, GitLab CI, TestContainers, Gradle, Git
+- **Languages:** Kotlin, Java, Scala, Rust, Python, TypeScript
+- **Frameworks & Reactive:** Spring Boot, Spring Cloud Gateway, Spring WebFlux, Project Reactor, Akka Streams, ZIO, ZIO HTTP, Tokio, RSocket, NestJS
+- **AI & Event-Driven:** event-driven architectures, gRPC, FlatBuffers, LLM-backed systems, reproducible/auditable decision pipelines
+- **Messaging & Streaming:** Apache Kafka, RabbitMQ, RSocket
+- **Databases & Caching:** PostgreSQL, MongoDB, Aerospike, Redis, Quill
+- **DevOps & Tools:** Docker, Kubernetes, GitLab CI, GraalVM, TestContainers, Gradle, Git
 
 ---
 
@@ -119,6 +119,8 @@ A results-driven **Senior Backend & AI-Systems Engineer** with over 6 years of e
 
 ## Highlighted Projects
 
-- **[AlladinAi](https://github.com/IldarRash/AlladinAi)**: Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine — Rust, Tokio, Python, Kafka, gRPC.
+- **[Alladin](https://github.com/IldarRash/AlladinAi)**: Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine — Rust, Tokio, Kafka, gRPC.
 - **[HealthTracer](https://github.com/IldarRash/HealthTracer)**: AI health coach built structured-state-first (state is authoritative, chat is just the interface) — TypeScript, NestJS, Next.js, Drizzle.
+- **[bot-constructor](https://github.com/IldarRash/bot-constructor)**: Microservices platform for visually building bots — node-graph React UI over a reactive Kotlin backend (gateway/auth/client-api), RSocket transport, WebFlux, MongoDB, FlatBuffers contracts, Docker + Kubernetes — Kotlin, Spring Boot, Spring Cloud Gateway, RSocket, WebFlux, MongoDB.
+- **[zio-avito-desk](https://github.com/IldarRash/zio-avito-desk)**: Full-stack classifieds board built functional-first — layered Scala 3 + ZIO backend, ZIO HTTP, compile-time type-safe SQL via Quill, ZLayer DI, React/TS frontend — Scala 3, ZIO, ZIO HTTP, Quill.
 - **[BeoSand](https://github.com/IldarRash/BeosendApp)**: Telegram-first platform for booking volleyball courts in Belgrade — server-authoritative pricing/availability, React admin console + Telegram mini-app, RU/SR/EN i18n — TypeScript, React + Vite, Telegram Mini Apps.
