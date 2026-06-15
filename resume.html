@@ -94,7 +94,7 @@
 <section>
   <h2>Key Achievements</h2>
   <ul>
-    <li>Engineered a real-time streaming platform processing <strong>15M+ messages/sec</strong> from Kafka (Java + Akka Streams).</li>
+    <li>Engineered a real-time streaming platform processing <strong>5M+ messages/sec</strong> from Kafka (Java + Akka Streams).</li>
     <li>Cut cloud spend by <strong>~EUR 20k/month</strong> via a GraalVM native-image migration.</li>
     <li>Delivered <strong>PCI-DSS-compliant</strong> payment services in production (Kotlin, Project Reactor).</li>
     <li>Architected an event-driven algorithmic-trading platform with an <strong>architecturally unbypassable risk engine</strong> (Rust + Python + Kafka).</li>
@@ -137,7 +137,7 @@
     </div>
     <p class="subline">Moscow, Russia</p>
     <ul>
-      <li>Designed a real-time, high-load streaming platform processing <strong>15M+ messages/sec</strong> from Kafka.</li>
+      <li>Designed a real-time, high-load streaming platform processing <strong>5M+ messages/sec</strong> from Kafka.</li>
       <li>Built the core processing engine in Java + Akka Streams; wrote consumer services in Scala (ScalaTest).</li>
       <li>Used Aerospike for caching and deduplication; managed inter-service communication through Kafka.</li>
     </ul>
@@ -168,21 +168,23 @@
 <section>
   <h2>Skills</h2>
   <ul class="skills">
-    <li><b>Languages:</b> Java, Kotlin, Scala, Rust, Python, TypeScript, SQL</li>
-    <li><b>Frameworks &amp; Reactive:</b> Spring Boot, Spring Integration, Project Reactor, Akka Streams, ZIO, Tokio, RSocket, NestJS</li>
-    <li><b>Messaging &amp; Streaming:</b> Apache Kafka, RabbitMQ</li>
-    <li><b>Data &amp; Caching:</b> PostgreSQL, Aerospike, Redis</li>
-    <li><b>AI &amp; Event-Driven:</b> event-driven architecture, gRPC, LLM-backed systems, auditable/reproducible decision pipelines</li>
-    <li><b>DevOps &amp; Tooling:</b> Docker, GitLab CI/CD, Gradle, TestContainers, JUnit, Git, GraalVM</li>
+    <li><b>Languages:</b> Kotlin, Java, Scala, Rust, Python, TypeScript, SQL</li>
+    <li><b>Frameworks &amp; Reactive:</b> Spring Boot, Spring Cloud Gateway, Spring WebFlux, Project Reactor, Akka Streams, ZIO, ZIO HTTP, Tokio, RSocket, NestJS</li>
+    <li><b>Messaging &amp; Streaming:</b> Apache Kafka, RabbitMQ, RSocket</li>
+    <li><b>Data &amp; Caching:</b> PostgreSQL, MongoDB, Aerospike, Redis, Quill</li>
+    <li><b>AI &amp; Event-Driven:</b> event-driven architecture, gRPC, FlatBuffers, LLM-backed systems, auditable/reproducible decision pipelines</li>
+    <li><b>DevOps &amp; Tooling:</b> Docker, Kubernetes, GitLab CI/CD, Gradle, GraalVM, TestContainers, JUnit, Git</li>
   </ul>
 </section>
 
 <section>
   <h2>Projects</h2>
   <ul>
-    <li><b><a href="https://github.com/IldarRash/AlladinAi">AlladinAi</a></b> — Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine and reproducible, auditable decisions. <i>Rust, Tokio, Python, Kafka, gRPC.</i></li>
-    <li><b><a href="https://github.com/IldarRash/HealthTracer">HealthTracer</a></b> — AI health coach built as a system, not a chatbot: a Postgres-backed structured domain model is authoritative, while the AI emits <i>typed proposals</i> (never direct DB writes) that the backend validates and the user approves, each becoming an immutable, auditable revision. The core is a multi-domain fan-out &amp; synthesis LLM pipeline (a router selects up to 3 domains, runs them in parallel, then a decision-maker synthesizes their output into proposals) with a deterministic planner clamping output to a hard capability allowlist and safety floors enforced in code. <i>TypeScript, NestJS, Next.js, Expo, Drizzle/PostgreSQL, Turborepo.</i></li>
-    <li><b><a href="https://github.com/IldarRash/BeosendApp">BeoSand</a></b> — Telegram-first platform for booking volleyball courts and managing training in Belgrade: a React admin console (scheduling, court-load heatmap, booking requests, broadcasts) plus a Telegram mini-app for players (browse slots, book, waitlist). Server-authoritative by design — all pricing, availability, and capacity are computed server-side and the UI only displays values and collects actions. Telegram Login auth, RSD pricing, RU/SR/EN i18n. <i>TypeScript, React + Vite, Telegram Mini Apps.</i></li>
+    <li><b><a href="https://github.com/IldarRash/AlladinAi">Alladin</a></b> — Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine and reproducible, auditable decisions. <i>Rust, Tokio, Kafka, gRPC.</i></li>
+    <li><b><a href="https://github.com/IldarRash/HealthTracer">HealthTracer</a></b> — AI health coach built as a system, not a chatbot: a Postgres-backed structured domain model is authoritative while the AI emits <i>typed proposals</i> (never direct DB writes) that the backend validates and the user approves, each an immutable revision. Core is a multi-domain fan-out &amp; synthesis LLM pipeline behind a deterministic planner that clamps output to a hard capability allowlist with safety floors enforced in code. <i>TypeScript, NestJS, Next.js, Expo, Drizzle/PostgreSQL.</i></li>
+    <li><b><a href="https://github.com/IldarRash/bot-constructor">bot-constructor</a></b> — Microservices platform for visually building and managing bots: a node-graph drag-and-drop React UI over a reactive Kotlin backend split into independent services (API gateway, auth, client-api). RSocket binary transport for low-latency messaging, Spring WebFlux non-blocking throughout, reactive MongoDB persistence, FlatBuffers IDL for shared binary contracts, JWT auth; Docker Compose + Kubernetes. <i>Kotlin, Spring Boot, Spring Cloud Gateway, RSocket, WebFlux, MongoDB, FlatBuffers, React.</i></li>
+    <li><b><a href="https://github.com/IldarRash/zio-avito-desk">zio-avito-desk</a></b> — Full-stack classifieds board built functional-first: a layered Scala 3 + ZIO backend (domain/storage/service/route/server modules) with ZIO HTTP, compile-time type-safe SQL via Quill, and ZLayer dependency injection, plus a React/TypeScript frontend. <i>Scala 3, ZIO, ZIO HTTP, Quill, ZIO-JSON, React.</i></li>
+    <li><b><a href="https://github.com/IldarRash/BeosendApp">BeoSand</a></b> — Telegram-first platform for booking volleyball courts in Belgrade: a React admin console (scheduling, court-load heatmap, booking requests, broadcasts) plus a Telegram mini-app for players. Server-authoritative by design — pricing, availability, and capacity are computed server-side; Telegram Login auth, RSD pricing, RU/SR/EN i18n. <i>TypeScript, React + Vite, Telegram Mini Apps.</i></li>
   </ul>
 </section>
 

@@ -36,7 +36,7 @@ Senior Backend & AI-Systems Engineer with 6+ years designing high-load, distribu
 
 ## Key Achievements
 
-- Engineered a real-time streaming platform processing **15M+ messages/sec** from Kafka (Java + Akka Streams).
+- Engineered a real-time streaming platform processing **5M+ messages/sec** from Kafka (Java + Akka Streams).
 - Reduced memory footprint and CPU time by **80%** via a GraalVM native-image migration, cutting cloud spend by **~EUR 20k/month**.
 - Delivered **PCI-DSS-compliant** payment services in production (Kotlin, Project Reactor).
 - Architected an event-driven algorithmic-trading platform with an **architecturally unbypassable risk engine** (Rust + Python + Kafka).
@@ -62,7 +62,7 @@ Belgrade, Serbia · May 2022 – Feb 2023
 ### Software Engineer — MTS
 Moscow, Russia · May 2020 – May 2022
 
-- Designed a real-time, high-load streaming platform processing **15M+ messages/sec** from Kafka.
+- Designed a real-time, high-load streaming platform processing **5M+ messages/sec** from Kafka.
 - Built the core processing engine in Java + Akka Streams; wrote consumer services in Scala (ScalaTest).
 - Used Aerospike for caching and deduplication; managed inter-service communication through Kafka.
 
@@ -80,20 +80,22 @@ Java & Android roles at Alfa-Bank, EPAM Systems, Trendsoft, and Dixy — core ba
 
 ## Skills
 
-- **Languages:** Java, Kotlin, Scala, Rust, Python, TypeScript, SQL
-- **Frameworks & Reactive:** Spring Boot, Spring Integration, Project Reactor, Akka Streams, ZIO, Tokio, RSocket, NestJS
-- **Messaging & Streaming:** Apache Kafka, RabbitMQ
-- **Data & Caching:** PostgreSQL, Aerospike, Redis
-- **AI & Event-Driven:** event-driven architecture, gRPC, LLM-backed systems, auditable/reproducible decision pipelines
-- **DevOps & Tooling:** Docker, GitLab CI/CD, Gradle, TestContainers, JUnit, Git, GraalVM
+- **Languages:** Kotlin, Java, Scala, Rust, Python, TypeScript, SQL
+- **Frameworks & Reactive:** Spring Boot, Spring Cloud Gateway, Spring WebFlux, Project Reactor, Akka Streams, ZIO, ZIO HTTP, Tokio, RSocket, NestJS
+- **Messaging & Streaming:** Apache Kafka, RabbitMQ, RSocket
+- **Data & Caching:** PostgreSQL, MongoDB, Aerospike, Redis, Quill
+- **AI & Event-Driven:** event-driven architecture, gRPC, FlatBuffers, LLM-backed systems, auditable/reproducible decision pipelines
+- **DevOps & Tooling:** Docker, Kubernetes, GitLab CI/CD, Gradle, GraalVM, TestContainers, JUnit, Git
 
 ---
 
 ## Projects
 
-- **AlladinAi** — Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine and reproducible, auditable decisions. *Rust, Tokio, Python, Kafka, gRPC.*
-- **HealthTracer** — AI health coach built as a system, not a chatbot: a Postgres-backed structured domain model is authoritative, while the AI emits *typed proposals* (never direct DB writes) that the backend validates and the user approves, each becoming an immutable, auditable revision. The core is a multi-domain fan-out & synthesis LLM pipeline (a router selects up to 3 domains, runs them in parallel, then a decision-maker synthesizes their output into proposals) with a deterministic planner clamping output to a hard capability allowlist and safety floors enforced in code. *TypeScript, NestJS, Next.js, Expo, Drizzle/PostgreSQL, Turborepo.*
-- **BeoSand** — Telegram-first platform for booking volleyball courts and managing training in Belgrade: a React admin console (scheduling, court-load heatmap, booking requests, broadcasts) plus a Telegram mini-app for players (browse slots, book, waitlist). Server-authoritative by design — all pricing, availability, and capacity are computed server-side and the UI only displays values and collects actions. Telegram Login auth, RSD pricing, RU/SR/EN i18n. *TypeScript, React + Vite, Telegram Mini Apps.*
+- **Alladin** — Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine and reproducible, auditable decisions. *Rust, Tokio, Kafka, gRPC.*
+- **HealthTracer** — AI health coach built as a system, not a chatbot: a Postgres-backed structured domain model is authoritative while the AI emits *typed proposals* (never direct DB writes) that the backend validates and the user approves, each an immutable revision. Core is a multi-domain fan-out & synthesis LLM pipeline behind a deterministic planner that clamps output to a hard capability allowlist with safety floors enforced in code. *TypeScript, NestJS, Next.js, Expo, Drizzle/PostgreSQL.*
+- **bot-constructor** — Microservices platform for visually building and managing bots: a node-graph drag-and-drop React UI over a reactive Kotlin backend split into independent services (API gateway, auth, client-api). RSocket binary transport for low-latency messaging, Spring WebFlux non-blocking throughout, reactive MongoDB persistence, FlatBuffers IDL for shared binary contracts, JWT auth; Docker Compose + Kubernetes. *Kotlin, Spring Boot, Spring Cloud Gateway, RSocket, WebFlux, MongoDB, FlatBuffers, React.*
+- **zio-avito-desk** — Full-stack classifieds board built functional-first: a layered Scala 3 + ZIO backend (domain/storage/service/route/server modules) with ZIO HTTP, compile-time type-safe SQL via Quill, and ZLayer dependency injection, plus a React/TypeScript frontend. *Scala 3, ZIO, ZIO HTTP, Quill, ZIO-JSON, React.*
+- **BeoSand** — Telegram-first platform for booking volleyball courts in Belgrade: a React admin console (scheduling, court-load heatmap, booking requests, broadcasts) plus a Telegram mini-app for players. Server-authoritative by design — pricing, availability, and capacity are computed server-side; Telegram Login auth, RSD pricing, RU/SR/EN i18n. *TypeScript, React + Vite, Telegram Mini Apps.*
 
 ---
 
