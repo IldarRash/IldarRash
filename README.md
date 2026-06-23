@@ -85,9 +85,9 @@
 
 ### 💼 Experience
 
-- **Paysend** — Software Developer · *Feb 2023 – Present* · high-load payment services (Kotlin/Java, Project Reactor, PCI DSS).
-- **Perfect Art** — Software Engineer · *2022 – 2023* · financial-activity screening (Scala + Akka).
-- **MTS** — Software Engineer · *2020 – 2022* · 5M+ msg/sec streaming platform (Java + Akka Streams + Kafka, Aerospike).
+- **Paysend** — Software Developer · *Feb 2023 – Present* · high-load payment services (Kotlin/Java, Project Reactor, PCI DSS); technical hiring & backlog prioritization.
+- **Perfect Art** — Software Engineer · *2022 – 2023* · financial-activity screening (Scala + Akka); coached the team.
+- **MTS** — Software Engineer · *2020 – 2022* · 5M+ msg/sec streaming platform (Java + Akka Streams + Kafka, Aerospike); mentored interns & ran Scala lectures.
 - **Raiffeisen Bank** — Software Engineer · *2018 – 2019* · high-load notification service (Java, Spring Integration).
 
 📄 Full CV: **[ildarrash.github.io/IldarRash](https://ildarrash.github.io/IldarRash/)**
