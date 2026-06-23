@@ -63,6 +63,7 @@ A results-driven **Senior Backend & AI-Systems Engineer** with over 6 years of e
 - Integrate with third-party payment systems, focusing on transaction security and PCI DSS compliance.
 - Manage microservices communication using RabbitMQ and enhance system performance and scalability.
 - Implement comprehensive automated testing with JUnit and TestContainers within a GitLab CI/CD pipeline.
+- Take part in the technical hiring process — conducting interviews — and in prioritizing the team's backlog.
 
 ### **Software Engineer**
 **Perfect Art** | *Belgrade, Serbia*
@@ -70,6 +71,7 @@ A results-driven **Senior Backend & AI-Systems Engineer** with over 6 years of e
 
 - Architected and developed a system for screening the financial activity of small businesses.
 - Implemented the core logic using Scala and the Akka framework for a highly concurrent and resilient solution.
+- Coached teammates on the Scala/Akka codebase and the screening domain to raise delivery quality.
 
 ### **Software Engineer**
 **MTS** | *Moscow, Russia*
@@ -79,6 +81,7 @@ A results-driven **Senior Backend & AI-Systems Engineer** with over 6 years of e
 - Utilized Java and Akka Streams for the core processing engine, ensuring high throughput and low latency.
 - Wrote consumer services in Scala, leveraging ScalaTest for robust testing.
 - Managed inter-service communication through Kafka and utilized Aerospike for caching and deduplication.
+- Mentored interns and new hires and delivered internal Scala lectures to accelerate team ramp-up.
 
 ### **Software Engineer**
 **Raiffeisen Bank Russia** | *Moscow, Russia*

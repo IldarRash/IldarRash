@@ -52,12 +52,14 @@ Belgrade, Serbia · Feb 2023 – Present
 - Ensure PCI-DSS compliance and transaction security; integrate external payment systems.
 - Manage inter-service messaging over RabbitMQ; drove a GraalVM native-image migration that reduced memory footprint and CPU time by 80%, saving ~EUR 20k/month.
 - Build CI/CD pipelines (GitLab) with automated testing (JUnit, TestContainers).
+- Take part in technical hiring — conducting interviews — and in prioritizing the team's backlog.
 
 ### Software Engineer — Perfect Art
 Belgrade, Serbia · May 2022 – Feb 2023
 
 - Architected a financial-activity screening system for small businesses.
 - Implemented core logic in Scala + Akka for a highly concurrent, resilient solution.
+- Coached teammates on the Scala/Akka codebase and the screening domain to raise delivery quality.
 
 ### Software Engineer — MTS
 Moscow, Russia · May 2020 – May 2022
@@ -65,6 +67,7 @@ Moscow, Russia · May 2020 – May 2022
 - Designed a real-time, high-load streaming platform processing **5M+ messages/sec** from Kafka.
 - Built the core processing engine in Java + Akka Streams; wrote consumer services in Scala (ScalaTest).
 - Used Aerospike for caching and deduplication; managed inter-service communication through Kafka.
+- Mentored interns and new hires; delivered internal Scala lectures to accelerate team ramp-up.
 
 ### Software Engineer — Raiffeisen Bank
 Moscow, Russia · May 2018 – Aug 2019
