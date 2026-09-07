@@ -1,121 +1,102 @@
-<!--
-=============================================================================
-ATS-FRIENDLY RESUME CONTENT — paste into Enhancv, then export PDF and overwrite
-ildar_shaiakhmetov.pdf at the repo root (the CV that index.md offers for download).
+<!-- Text from resume.html via build-resume.py. Memory figures clarified by the author on 7 Sep 2026. -->
 
-HOW TO USE (Enhancv export guidance):
-- Pick a SINGLE-COLUMN template. The current PDF uses a two-column template,
-  which is the root ATS failure — in parse order the sidebar text splices into
-  the middle of the job bullets and gets scrambled.
-- Keep the standard section headings exactly as below: Summary, Experience,
-  Skills, Education, Certifications, Projects — these are the ones ATS recognize.
-- Let the template's default bullet render. Do NOT use the icon/symbol bullets;
-  in the old PDF those decoded as "?" garbage.
-- Remove the "Powered by enhancv" watermark on export if possible.
-- Keep to 1–2 pages. Export as PDF.
+ILDAR SHAYAKHMETOV
+Senior / Staff Software Engineer | AI Products | Zero-to-One Engineering
+il.sach@yandex.ru  |  +381 62 975 4956  |  Belgrade, Serbia
+linkedin.com/in/ildar-shayakhmetov-8471ab164  |  github.com/IldarRash  |  ildarrash.github.io/IldarRash
+Summary
+Hands-on senior/staff engineer with 10 years of experience building backend platforms and product surfaces across AI,
+fintech, analytics, telecom, and banking. Strongest when an idea is still rough: clarify the user problem, challenge
+unnecessary scope, choose an architecture that can ship, and stay with the feature through production. Deep in
+distributed JVM systems, with practical full-stack delivery in TypeScript, React, Next.js, Expo, and Telegram Mini Apps.
+Has led backend teams, reviewed product and technical decisions, mentored engineers, and built several independent
+products from zero.
+Core Skills
+- Product ownership: turn ambiguous ideas into user flows, technical decisions, working software, and operational
+feedback
+- AI product systems: LLM orchestration, typed proposals, deterministic validation, capability boundaries, audit
+history, human approval
+- Full-stack delivery: TypeScript, NestJS, React, Next.js, Expo, React Flow, REST APIs, authentication, scheduling,
+internationalization
+- Backend depth: Java, Kotlin, Scala, Rust, Spring Boot, Project Reactor, Akka Streams, Kafka, RabbitMQ,
+PostgreSQL, Redis
+- Engineering leadership: architecture direction, design and code reviews, prioritization, mentoring, hiring, cross-team
+alignment
+Projects
+HealthTracer - AI health companion platform
+Turned a broad AI-coach idea into a structured product across mobile, web, and backend. Designed a multi-domain
+LLM pipeline where the model proposes typed changes, while the backend validates them and the user approves each
+immutable revision. Added a deterministic planner, explicit capability boundaries, and code-enforced safety floors so the
+product remains useful without giving the model unchecked authority. TypeScript, NestJS, Next.js, Expo, PostgreSQL.
+bot-constructor - visual automation product
+Built the product end to end: React Flow interaction model, four reactive Kotlin services, and an execution engine for 23
+node types including triggers, branches, HTTP, sandboxed code, schedules, and AI/service connectors. Owned the less
+visible product work too - encrypted credentials, per-node history, failure visibility, and deployable Docker/Kubernetes
+packaging. Kotlin, Spring WebFlux, RSocket, MongoDB, React.
+BeoSand - Telegram-first booking product
+Built a player-facing Telegram Mini App and a React admin console for real booking operations in Belgrade. Kept
+pricing, availability, and capacity server-authoritative while making the user flow quick and understandable; added
+scheduling, booking requests, broadcasts, and RU/SR/EN localization. TypeScript, React, Vite, Telegram Mini Apps.
+Professional Experience
+Software Developer - Paysend
+Feb 2023 - Jun 2026
+Belgrade, Serbia
+- Owned production payment services in Java and Kotlin, from implementation and external integrations through
+testing, delivery, and operational follow-up.
+- Delivered PCI-DSS-compliant functionality and transaction-security controls for critical money-movement flows.
+- Led a GraalVM native-image migration: average memory use fell from about 20 MB to under 2 MB, and allocated
+memory from 200 MB to 20 MB. The migration saved approximately EUR 20,000 per month in cloud costs.
+- Improved asynchronous RabbitMQ interactions and GitLab CI/CD with JUnit and Testcontainers; contributed to hiring
+and backlog decisions.
 
-This file is the canonical, version-controlled source of the resume text and is
-kept in sync with index.md.
-=============================================================================
--->
 
-# Ildar Shayakhmetov
-
-**Senior Backend & AI-Systems Engineer | High-Load Fintech**
-
-il.sach@yandex.ru · +381 62 975 4956 · Belgrade, Serbia
-linkedin.com/in/ildar-shayakhmetov-8471ab164 · github.com/IldarRash · ildarrash.github.io/IldarRash
-
----
-
-## Summary
-
-Senior Backend & AI-Systems Engineer with 6+ years designing high-load, distributed backend systems. Expert in Java, Kotlin, and Scala with reactive programming (Project Reactor, Akka Streams) and deep fintech experience — payments, money movement, and PCI-DSS-compliant services. Also architects event-driven AI platforms in Rust and Python (algorithmic trading, AI health coaching). Track record of leading projects, optimizing performance, and keeping systems stable under load.
-
----
-
-## Key Achievements
-
-- Engineered a real-time streaming platform processing **5M+ messages/sec** from Kafka (Java + Akka Streams).
-- Reduced memory footprint and CPU time by **80%** via a GraalVM native-image migration, cutting cloud spend by **~EUR 20k/month**.
-- Delivered **PCI-DSS-compliant** payment services in production (Kotlin, Project Reactor).
-- Architected an event-driven algorithmic-trading platform with an **architecturally unbypassable risk engine** (Rust + Python + Kafka).
-
----
-
-## Experience
-
-### Software Developer — Paysend
-Belgrade, Serbia · Feb 2023 – Present
-
-- Develop and maintain high-load payment services in Kotlin and Java; reactive architecture with Project Reactor.
-- Ensure PCI-DSS compliance and transaction security; integrate external payment systems.
-- Manage inter-service messaging over RabbitMQ; drove a GraalVM native-image migration that reduced memory footprint and CPU time by 80%, saving ~EUR 20k/month.
-- Build CI/CD pipelines (GitLab) with automated testing (JUnit, TestContainers).
-- Take part in technical hiring — conducting interviews — and in prioritizing the team's backlog.
-
-### Software Engineer — Perfect Art
-Belgrade, Serbia · May 2022 – Feb 2023
-
-- Architected a financial-activity screening system for small businesses.
-- Implemented core logic in Scala + Akka for a highly concurrent, resilient solution.
-- Coached teammates on the Scala/Akka codebase and the screening domain to raise delivery quality.
-
-### Software Engineer — MTS
-Moscow, Russia · May 2020 – May 2022
-
-- Designed a real-time, high-load streaming platform processing **5M+ messages/sec** from Kafka.
-- Built the core processing engine in Java + Akka Streams; wrote consumer services in Scala (ScalaTest).
-- Used Aerospike for caching and deduplication; managed inter-service communication through Kafka.
-- Mentored interns and new hires; delivered internal Scala lectures to accelerate team ramp-up.
-
-### Software Engineer — Raiffeisen Bank
-Moscow, Russia · May 2018 – Aug 2019
-
-- Built and enhanced a high-load notification service in Java + Spring Integration; rewrote the mass-mailing flow.
-- Redesigned caching mechanisms to improve performance; built a notification-history service from scratch.
-- Contributed to frontend work with React and WebSockets for real-time communication.
-
-### Earlier (2016 – 2019)
-Java & Android roles at Alfa-Bank, EPAM Systems, Trendsoft, and Dixy — core banking (OpenID Connect authentication), high-load data-validation systems and REST APIs, system integrations (1C, AmoCRM), and mobile development (Retrofit, RxJava).
-
----
-
-## Skills
-
-- **Languages:** Kotlin, Java, Scala, Rust, Python, TypeScript, SQL
-- **Frameworks & Reactive:** Spring Boot, Spring Cloud Gateway, Spring WebFlux, Project Reactor, Akka Streams, ZIO, ZIO HTTP, Tokio, RSocket, NestJS
-- **Messaging & Streaming:** Apache Kafka, RabbitMQ, RSocket
-- **Data & Caching:** PostgreSQL, MongoDB, Aerospike, Redis, Quill
-- **AI & Event-Driven:** event-driven architecture, gRPC, FlatBuffers, LLM-backed systems, auditable/reproducible decision pipelines
-- **DevOps & Tooling:** Docker, Kubernetes, GitLab CI/CD, Gradle, GraalVM, TestContainers, JUnit, Git
-
----
-
-## Projects
-
-- **Alladin** — Event-driven algorithmic-trading platform with an architecturally unbypassable risk engine and reproducible, auditable decisions. *Rust, Tokio, Kafka, gRPC.*
-- **HealthTracer** — AI health coach built as a system, not a chatbot: a Postgres-backed structured domain model is authoritative while the AI emits *typed proposals* (never direct DB writes) that the backend validates and the user approves, each an immutable revision. Core is a multi-domain fan-out & synthesis LLM pipeline behind a deterministic planner that clamps output to a hard capability allowlist with safety floors enforced in code. *TypeScript, NestJS, Next.js, Expo, Drizzle/PostgreSQL.*
-- **bot-constructor** — Microservices automation platform for visually building bots with an n8n-style workflow engine: a React Flow drag-and-drop node-graph UI over a reactive Kotlin backend split into four services (gateway, auth, client-api, bot-api). An item-based execution engine runs 23 node types — triggers, branches, HTTP, sandboxed code, and live connectors to Claude, Telegram, Slack, and Discord — with a GraalVM JavaScript expression/code evaluator, an AES-256-GCM-encrypted credential store, per-node execution history, and cron scheduling. RSocket binary transport, Spring WebFlux non-blocking throughout, reactive MongoDB, JWT auth; Docker Compose + Kubernetes. *Kotlin, Spring Boot 4, Spring Cloud Gateway, RSocket, WebFlux, MongoDB, GraalVM, React 19 / React Flow.*
-- **zio-avito-desk** — Full-stack classifieds board built functional-first: a layered Scala 3 + ZIO backend (domain/storage/service/route/server) with ZIO HTTP, compile-time type-safe SQL via Quill, and ZLayer dependency injection. Session-cookie auth with bcrypt-hashed passwords, ownership-gated CRUD, image uploads, PostgreSQL with Flyway-versioned migrations, and 33 Testcontainers-backed tests; React 19 / TypeScript frontend with filter/search and GitHub Actions CI. *Scala 3.3, ZIO 2, ZIO HTTP 3, Quill, PostgreSQL, Flyway, React.*
-- **BeoSand** — Telegram-first platform for booking volleyball courts in Belgrade: a React admin console (scheduling, court-load heatmap, booking requests, broadcasts) plus a Telegram mini-app for players. Server-authoritative by design — pricing, availability, and capacity are computed server-side; Telegram Login auth, RSD pricing, RU/SR/EN i18n. *TypeScript, React + Vite, Telegram Mini Apps.*
-
----
-
-## Education
-
-**HSE University** — B.Sc., Software Engineering · 2014 – 2018
-
----
-
-## Certifications
-
-- JVA-074 Java Advanced: Functional, Asynchronous and Reactive Programming
-- Kotlin Developer
-
----
-
-## Languages
-
-- English — Advanced (C1)
-- Russian — Native
+Professional Experience - Continued
+Team Lead - Prizma.tools
+Nov 2021 - Jan 2023
+- Led a small backend team building an analytics product, translating incomplete stakeholder ideas into concrete
+priorities, architecture, and shipped services.
+- Stayed hands-on while setting direction for fault-tolerant services, data pipelines, storage, caching, and asynchronous
+processing.
+- Introduced practical review, testing, monitoring, and refactoring habits; mentored engineers and spread ownership
+instead of centralizing every decision.
+Software Engineer - MTS
+Aug 2019 - Oct 2021
+Moscow, Russia
+- Designed a real-time platform processing more than 5 million Kafka messages per second in aggregate across the
+platform, where backpressure, latency, deduplication, and failure behavior were product constraints rather than
+afterthoughts.
+- Built the core engine in Java and Akka Streams and consumer services in Scala; used Aerospike caching to protect
+high-volume data flows from duplicate work and avoidable latency.
+- Mentored interns and new hires and ran internal Scala sessions to shorten the path from unfamiliar code to useful
+contribution.
+Software Engineer - Raiffeisen Bank
+May 2018 - Aug 2019
+Moscow, Russia
+- Built and evolved a high-load notification product in Java and Spring Integration, including a rewritten
+mass-notification flow and a new history service.
+- Redesigned caching and added React/WebSocket functionality so users received faster, clearer feedback from
+backend events.
+Earlier Engineering Roles - EPAM Systems, Trendsoft, Dixy
+2016 - 2019
+Delivered data-validation services and REST APIs, integrated business systems including 1C and AmoCRM, and
+developed Android applications with Retrofit and RxJava.
+Selected Engineering Outcomes
+- Shipped systems ranging from consumer mobile and web products to payment services and a streaming platform
+processing 5M+ messages/second in aggregate.
+- Reduced production infrastructure cost by approximately EUR 20,000 per month through a measured runtime
+migration.
+- Built product logic where correctness matters: payment controls, server-authoritative pricing and capacity, typed AI
+proposals, and auditable decisions.
+- Worked across the whole delivery loop: shaping requirements, architecture, implementation, tests, CI/CD, production
+diagnosis, and follow-up improvements.
+Technical Skills
+- Languages: Java, Kotlin, Scala, Rust, TypeScript, Python, SQL
+- Product & Web: React, Next.js, Expo, React Flow, Telegram Mini Apps, REST, WebSockets, i18n
+- Backend & Data: Spring Boot, Spring WebFlux, Project Reactor, Akka Streams, NestJS, Kafka, RabbitMQ,
+PostgreSQL, MongoDB, Aerospike, Redis
+- AI Systems: LLM-backed workflows, multi-agent fan-out and synthesis, typed outputs, deterministic planners,
+human-in-the-loop approval
+- Delivery: Docker, Kubernetes, GitLab CI/CD, GitHub Actions, GraalVM, JUnit, Testcontainers, Git
+Education & Languages
+HSE University - B.Sc. in Software Engineering, 2014 - 2018
+English - Advanced (C1)  |  Russian - Native
