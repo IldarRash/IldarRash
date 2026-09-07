@@ -1,105 +1,35 @@
-<h1 align="center">Hi, I'm Ildar 👋</h1>
+# Ildar Shayakhmetov
 
-<p align="center">
-  <b>Senior Backend &amp; AI-Systems Engineer</b><br>
-  High-load <b>fintech</b> (payments &amp; money movement) · event-driven <b>AI platforms</b> · reactive distributed systems
-</p>
+**Senior Software Engineer · Belgrade, Serbia**
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/ildar-shayakhmetov-8471ab164"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:il.sach@yandex.ru"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/IldarRash"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-</p>
+I build distributed backend systems and take products from an idea to working software. My experience spans payment services, real-time data platforms, and AI applications.
 
----
+[Portfolio](https://ildarrash.github.io/IldarRash/) · [Download CV](./ildar_shaiakhmetov.pdf) · [LinkedIn](https://www.linkedin.com/in/ildar-shayakhmetov-8471ab164) · [Email](mailto:il.sach@yandex.ru)
 
-### ⚡ Impact at a glance
+## Experience
 
-- 🏗️ **6+ years** designing and shipping high-load, distributed backend systems.
-- 🚀 Built a real-time streaming platform processing **5M+ messages/sec** from Kafka (Java + Akka Streams).
-- 💳 Ship **PCI-DSS-compliant** payment services at **Paysend** using Kotlin & Project Reactor.
-- 💰 Cut cloud spend by **~€20k/month** through a GraalVM native-image migration.
-- 🦀 Build event-driven **systems** in Rust on the side — see [Alladin](https://github.com/IldarRash/AlladinAi).
+- **Paysend — Software Developer**, Feb 2023 – Jun 2026. Production payment services in Java and Kotlin. Led a GraalVM migration that reduced cloud spend by approximately €20,000 per month.
+- **Prizma.tools — Team Lead**, Nov 2021 – Jan 2023. Led a small backend team building an analytics product, with hands-on architecture, delivery, and mentoring.
+- **MTS — Software Engineer**, Aug 2019 – Oct 2021. Built a streaming platform processing 5M+ Kafka messages per second across the platform using Java and Akka Streams.
+- **Raiffeisen Bank — Software Engineer**, May 2018 – Aug 2019. Notification services, caching, and real-time React/WebSocket functionality.
+- **Earlier roles — EPAM Systems, Trendsoft, Dixy**, 2016 – 2019. Data-validation services, REST APIs, business integrations, and Android development.
 
----
+## Selected independent projects
 
-### 👨‍💻 About Me
+- **[HealthTracer](https://github.com/IldarRash/HealthTracer)** — AI health companion across mobile, web, and backend. Typed AI proposals, backend validation, and user-approved revisions. TypeScript, NestJS, Next.js, Expo, PostgreSQL.
+- **[bot-constructor](https://github.com/IldarRash/bot-constructor)** — Visual automation editor with 23 node types, reactive Kotlin services, encrypted credentials, and execution history. Kotlin, Spring WebFlux, RSocket, MongoDB, React Flow.
+- **[BeoSand](https://github.com/IldarRash/BeosendApp)** — Telegram-first volleyball court booking in Belgrade, with a player Mini App and React admin console. Server-calculated pricing and availability, RU/SR/EN localization.
+- **[Alladin](https://github.com/IldarRash/AlladinAi)** — Event-driven algorithmic-trading project with a dedicated risk engine and auditable decisions. Rust, Tokio, Kafka, gRPC.
+- **[zio-avito-desk](https://github.com/IldarRash/zio-avito-desk)** — Functional full-stack classifieds board with type-safe SQL and integration tests. Scala, ZIO, Quill, PostgreSQL, React.
 
-- 🔭 Currently building high-performance **payment services** and reactive distributed systems at Paysend (Belgrade).
-- 🧠 On the side, I architect **event-driven platforms**: an algorithmic-trading engine ([Alladin](https://github.com/IldarRash/AlladinAi)) and an AI health coach ([HealthTracer](https://github.com/IldarRash/HealthTracer)).
-- 🌱 Going deeper into **Rust**, cloud-native infrastructure, and AI/ML system design.
-- 💬 Ask me about **Kotlin / Scala / Java**, reactive programming (**Project Reactor**, **Akka Streams**), microservices, and brokers (**Kafka**, **RabbitMQ**).
-- 🏐 Off the keyboard, I play volleyball to recharge — and built [BeoSand](https://github.com/IldarRash/BeosendApp), a Telegram-first court-booking platform for Belgrade.
+## Technical focus
 
----
+**Backend:** Java, Kotlin, Scala, Rust, Spring Boot, Project Reactor, Akka Streams, Kafka, RabbitMQ.
 
-### 🛠️ Tech Stack
+**Product & AI:** TypeScript, Python, NestJS, React, Next.js, Expo, LLM workflows, typed outputs, deterministic validation.
 
-**JVM & Backend**
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Scala](https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Project Reactor](https://img.shields.io/badge/Project%20Reactor-6DB33F?style=for-the-badge)
-![WebFlux](https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Akka Streams](https://img.shields.io/badge/Akka%20Streams-1C6DB4?style=for-the-badge)
-![ZIO](https://img.shields.io/badge/ZIO-00BC7F?style=for-the-badge)
-![RSocket](https://img.shields.io/badge/RSocket-FF6347?style=for-the-badge&logo=rsocket&logoColor=white)
+**Data & delivery:** PostgreSQL, MongoDB, Aerospike, Redis, Docker, Kubernetes, GraalVM, CI/CD, JUnit, Testcontainers.
 
-**Rust & AI / Data**
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Tokio](https://img.shields.io/badge/Tokio-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=google&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+**Education:** HSE University, B.Sc. in Software Engineering, 2014 – 2018.
 
-**Messaging & Storage**
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Aerospike](https://img.shields.io/badge/Aerospike-AC3B84?style=for-the-badge)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-**DevOps & Tooling**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![TestContainers](https://img.shields.io/badge/TestContainers-9A46A9?style=for-the-badge&logo=testcontainers&logoColor=white)
-
----
-
-### 🚀 Featured Projects
-
-| Project | What it demonstrates | Stack |
-| --- | --- | --- |
-| **[Alladin](https://github.com/IldarRash/AlladinAi)** | Event-driven algorithmic-trading platform with an architecturally **unbypassable risk engine** and fully reproducible, auditable decisions. | Rust · Tokio · Kafka · gRPC |
-| **[HealthTracer](https://github.com/IldarRash/HealthTracer)** | AI health coach built **structured-state-first** — domain state is authoritative, the AI emits typed proposals the backend validates; chat is just the interface. | TypeScript · NestJS · Next.js · Expo · Drizzle |
-| **[bot-constructor](https://github.com/IldarRash/bot-constructor)** | Microservices **bot-automation platform** — n8n-style visual workflow engine (23 node types: triggers, branches, code, live connectors to **Claude/Telegram/Slack/Discord**), sandboxed **GraalVM JS** evaluator, **AES-256-GCM** credential store, per-node run history. React Flow UI over reactive Kotlin (gateway/auth/client-api/bot-api), **RSocket** transport, WebFlux, MongoDB, K8s. | Kotlin · Spring Boot 4 · RSocket · WebFlux · MongoDB · GraalVM · React Flow |
-| **[zio-avito-desk](https://github.com/IldarRash/zio-avito-desk)** | Full-stack classifieds board built **functional-first** — layered Scala 3 + ZIO backend, ZIO HTTP, type-safe SQL via Quill, ZLayer DI; **session + bcrypt auth**, ownership-gated CRUD, image uploads, **PostgreSQL + Flyway**, 33 Testcontainers tests, GitHub Actions CI; React 19 frontend. | Scala 3 · ZIO · ZIO HTTP · Quill · PostgreSQL · React |
-| **[BeoSand](https://github.com/IldarRash/BeosendApp)** | Telegram-first platform for booking volleyball courts in Belgrade — **server-authoritative** pricing/availability, React admin console + Telegram mini-app, RU/SR/EN i18n. | TypeScript · React + Vite · Telegram Mini Apps |
-
----
-
-### 💼 Experience
-
-- **Paysend** — Software Developer · *Feb 2023 – Present* · high-load payment services (Kotlin/Java, Project Reactor, PCI DSS); technical hiring & backlog prioritization.
-- **Perfect Art** — Software Engineer · *2022 – 2023* · financial-activity screening (Scala + Akka); coached the team.
-- **MTS** — Software Engineer · *2020 – 2022* · 5M+ msg/sec streaming platform (Java + Akka Streams + Kafka, Aerospike); mentored interns & ran Scala lectures.
-- **Raiffeisen Bank** — Software Engineer · *2018 – 2019* · high-load notification service (Java, Spring Integration).
-
-📄 Full CV: **[ildarrash.github.io/IldarRash](https://ildarrash.github.io/IldarRash/)**
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=IldarRash&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true" alt="Ildar's GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IldarRash&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=IldarRash&theme=tokyonight&hide_border=true" alt="GitHub streak">
-</p>
+**Languages:** English — C1; Russian — native.

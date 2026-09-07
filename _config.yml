@@ -1,3 +1,10 @@
 title: Ildar Shayakhmetov
-description: Software Engineer | Backend Developer
-theme: jekyll-theme-cayman 
+description: Software Engineer | Distributed Backend Systems, Fintech and AI Products
+exclude:
+  - build-site.mjs
+  - build-resume.py
+  - dist
+  - resume-content.md
+  - gte-cover-letter.md
+  - n8n-application-answers.md
+theme: jekyll-theme-cayman
